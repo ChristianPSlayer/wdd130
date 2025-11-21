@@ -10,7 +10,12 @@ h1 {
     padding-bottom: 0;
 }
 
-
+.box{
+  margin: 20px 0;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 10px;
+  background-color: #ddd; 
+}
 
 p {
     margin: 0;
@@ -31,8 +36,8 @@ code {
     background-color: #ddd; /* this is shorthand for #dddddd */
 }
 
-.highlight {
-    background-color: #efefaa;
+.box.highlight {
+    background-color: #938cb3;
     border-radius: 25px;
     padding: 25px;
 }
