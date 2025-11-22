@@ -98,8 +98,8 @@ article{
     position: absolute;
     background-color: var(--accent1-color);
      background: 
-        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), 
-         center/cover no-repeat;
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5));
+        
     color: white;
     padding: 20px;
     
