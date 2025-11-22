@@ -1,6 +1,6 @@
 :root{
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --secondary-color: #e9c46a;
     --accent1-color: #61a962;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman","Georgia", serif;
@@ -21,7 +21,7 @@ nav,article{
     padding: 8px;
 }
 nav {
-    background-color: #e9c46a;
+    background-color: var(--secondary-color);
     margin: 0 auto;
 }
 nav a{
@@ -68,6 +68,9 @@ header, main, footer{
 .hero{
     position: relative;
 }
+.hero article{
+    position: absolute;
+}
 .hero img{
     position: relative;
     display: block;
@@ -94,7 +97,13 @@ article{
     flex-direction: row-reverse;
     position: absolute;
     background-color: var(--accent1-color);
-    opacity: 0.8;
+     background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), 
+        url('fondo.jpg') center/cover no-repeat;
+    color: white;
+    padding: 20px;
+    
+   
     top: 125px;
 }
 article p{
