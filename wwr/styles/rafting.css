@@ -1,0 +1,127 @@
+:root{
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #61a962;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman","Georgia", serif;
+    --body-font: Arial,Helvetica,sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+nav,article{
+    margin: 16px;
+    padding: 8px;
+}
+nav {
+    background-color: #e9c46a;
+    margin: 0 auto;
+}
+nav a{
+    margin-right: 5px;
+}
+
+
+header{
+    background-color: var(--primary-color);
+    color: var(--accent2-color)
+}
+.headerlogo img{
+   width: 100px;
+   height: 100px; 
+   margin-left: 10px;
+  
+}
+body{
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+header, main, footer{
+    width: 840px;
+    margin:0 auto ;
+}
+
+.socialmedia img{
+    width: 5rem;
+    height: 5rem;
+
+}
+.socialmedia a{
+    text-decoration: none;
+}
+
+.hero article img{
+    float: right;
+    width: 225px;
+    box-shadow:  5px 5px 5px #625fe6;
+    margin: 10px;
+    padding: 5px;
+    
+}
+.hero{
+    position: relative;
+}
+.heroimagen img{
+    position: relative;
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.9;
+    background-color: var(--accent1-color);
+    color: #fff;
+
+
+}
+article{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    background-color: var(--accent1-color);
+    opacity: 0.8;
+    top: 125px;
+}
+article p{
+    color: #fff;
+    
+    opacity: 0.7;
+}
+section{
+    
+    margin-top: 20px;
+    padding: 0px;
+}
+section h2{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+}
+section p{
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    border-top: 1px solid #625fe6;
+    
+}
+footer p{
+    margin-top: 30px;
+}
