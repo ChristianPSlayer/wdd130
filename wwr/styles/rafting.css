@@ -145,37 +145,34 @@ section p{
     margin-top: 10px;
 }
 
-footer{
-    
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    border-top: 1px solid #625fe6;
-    
-}
-footer p{
-    margin-top: 30px;
-}
-footer nav{
-    
-    
-}
+
+
+
 .socialmedia{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+  display: grid; 
+  grid-template-columns: 2fr 1fr;
+  margin-top: 20px;
+    
    
     
 }
 .socialmedia p{
+margin-right: 25px;
+justify-self: right;
 
-  justify-self:right;
-  align-content: center;
-  margin-right: 25px;
+align-content: center;
+ 
 }
   
 
 
-/** History **/
+/** History
+ justify-self:right;
+  align-content: center;
+  margin-right: 25px;
+
+
+**/
 
 .history_divides{
     display: grid;
