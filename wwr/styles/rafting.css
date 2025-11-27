@@ -39,6 +39,25 @@ header{
    margin-left: 10px;
   
 }
+.headerlogo{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+    
+}
+.headerlogo nav{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+   
+}
+.headerlogo nav a{
+    margin-right: 15px;
+}
+.headerlogo img{
+   margin: 0 auto;
+   
+}
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -127,10 +146,68 @@ section p{
 }
 
 footer{
+    
     margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     border-top: 1px solid #625fe6;
     
 }
 footer p{
     margin-top: 30px;
+}
+footer nav{
+    
+    
+}
+.socialmedia{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   
+    
+}
+.socialmedia p{
+
+  justify-self:right;
+  align-content: center;
+  margin-right: 25px;
+}
+  
+
+
+/** History **/
+
+.history_divides{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+
+}
+.history_divides img{
+    max-width: 200px;
+    
+    
+}
+.history{
+    grid-column: 2/3;
+    text-align: center;
+}
+.parrafo{
+    grid-row: 1/2;
+}
+/***Captions adventure Awaits You!!!***/
+
+.captions{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.captions img{
+    max-width: 150px;
+}
+.caption{
+    column-gap: 10px;
+    border: 1px solid #6aad96;
+}
+.caption img{
+    margin: 0 auto;
 }
