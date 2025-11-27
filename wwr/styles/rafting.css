@@ -37,6 +37,7 @@ header{
    width: 100px;
    height: 100px; 
    margin-left: 10px;
+margin: 0 auto;
   
 }
 .headerlogo{
@@ -54,10 +55,7 @@ header{
 .headerlogo nav a{
     margin-right: 15px;
 }
-.headerlogo img{
-   margin: 0 auto;
-   
-}
+
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
