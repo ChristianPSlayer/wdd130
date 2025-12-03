@@ -206,3 +206,21 @@ align-content: center;
 .caption img{
     margin: 0 auto;
 }
+
+
+/***Contact Us Page!!!***/
+
+
+.divide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+iframe{
+    
+    max-width: 450px;
+}
+.information {
+    
+
+}
