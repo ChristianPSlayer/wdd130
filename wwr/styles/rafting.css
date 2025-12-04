@@ -214,13 +214,23 @@ align-content: center;
 .divide{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
+   
 }
-iframe{
+.informacion{
     
-    max-width: 450px;
 }
-.information {
-    
 
+
+.captions_pictures{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    column-gap: 30px;
+    padding: 20px 0;
+}
+.caption_profile img{
+    width: 100%;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+ 
 }
