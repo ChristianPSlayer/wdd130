@@ -300,4 +300,7 @@ iframe{
     justify-content: space-around;
     align-items: center;
 }
+.map{
+    border: 0;
+}
 
