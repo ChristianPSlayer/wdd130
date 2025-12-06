@@ -223,7 +223,7 @@ align-content: center;
     
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 28px;
 }
 .item_box{
     display: flex;
@@ -288,5 +288,16 @@ iframe{
 }
 .info_contact p{
     margin: 5px;
+}
+.item_box_row{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.item_boxx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
