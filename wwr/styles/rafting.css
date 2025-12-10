@@ -73,6 +73,157 @@ header, main, footer{
 .socialmedia a{
     text-decoration: none;
 }
+/* Home Page ****/
+.hero_home > *:not(img){
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    
+}
+.hero_home img{
+    width: 100%;
+}
+
+
+.title_absolute > *{
+    padding: 20px;
+    color: #f5f5f5;
+    font-size: 20px;
+    background-color: rgba(43, 42, 29, 0.5);
+    border-radius: 4px;
+    border: none;
+}
+.title_absolute{
+    text-align: center;
+}
+.title_absolute h1{
+    color: #efe006;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+
+
+.aspect_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+background-color: #2c655d;
+}
+.aspect_container{
+    position: relative;
+    width: 70%;
+    max-width: 1000px;
+    margin-right: 20%;
+}
+.aspect_image{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.feature_card{
+    position: absolute;
+    bottom: 60px;
+    right: -175px;
+    background-color: #6fe2d3;
+    color: white;
+    padding: 25px 25px;
+    width: 390px;
+    opacity: .7;
+    
+}
+.feature_card > p ,h2{
+    font-weight: bold;
+    color:rgb(92, 57, 167)
+}
+
+
+
+.newsletter{
+    background-color: #6f8368;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+
+.newsletter h2{
+    margin-bottom: 20px;
+
+}
+.newsletter p{
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+.newsletter form input{
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    width: 230px;
+}
+
+.newsletter_form button{
+    padding: 10px;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.trips_expedition{
+    display: flex;
+   width: 100%;
+   gap: 10px;
+   margin-top: 20px;
+  
+}
+.trips_card{
+    width: 100%;
+   
+    
+}
+.trips_card img{
+   max-width: 273px;
+   border-radius: 4px;
+  
+}
+.trips_card .icon{
+    max-width: 80px;
+   
+    display: block;
+    margin: 15px auto;
+    
+
+    
+    
+}
+.trips_card p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
+
+/*******End Home *****/
+
+
+
+
+
+
+
+
+
+
 
 .hero article img{
     float: right;
@@ -319,3 +470,114 @@ iframe{
 .item_box_radio .radio{
     margin-right: 30px;
 }
+
+
+/*****Page Trips*****/
+
+.trips-intro {
+    width: 100%;
+    background-color: #8b8250ed;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.trips-intro >*{
+    padding: 20px;
+}
+.trips-intro h1{
+    text-align: center;
+    font-size: 35px
+}
+.trips-intro h2{
+     background-color: #8b8250ed;
+     font-size: x-larger;
+     color: #e9c46a;
+     
+     
+}
+.trips-intro p{
+    padding: 20px 30px;
+    line-height: 2;
+    text-align: center;
+}
+.pictures_description{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.pictures_description p , li{
+    padding: 10px;
+    line-height: 1.8;
+}
+.description_place{
+margin-top: 20px;
+margin-left:20px;
+
+}
+.description_place li{
+    margin-left: 10px;
+}
+/********End Trips Page ******/
+
+/*****Tables Trips ****/
+
+.trips-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.trips-table th, .trips-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.trips-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.trips-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+.cta-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0084a8; /* color tipo agua/rafting */
+  color: white;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+.cta-section h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  background-color: #0084a8;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+
+
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #ffffff;
+  color: #0084a8;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e0f1f7;
+}
+
